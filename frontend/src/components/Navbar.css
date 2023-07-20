@@ -1,0 +1,33 @@
+.navbar {
+  background: linear-gradient(#18202a, #222f40);
+  display: flex;
+  height: 4rem;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.navbar > p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.nav__links {
+  width: 30%;
+}
+
+.nav__link {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .logout {
+  margin-right: 1rem;
+} */
