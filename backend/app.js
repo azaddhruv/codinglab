@@ -27,6 +27,15 @@ app.get('/', (req, res) => {
   res.send('Server Working');
 });
 
+//test
+app.get(
+  '/',
+  (req,
+  (res) => {
+    res.send('server working');
+  })
+);
+
 //all routes
 app.use('/', userRoutes);
 app.use('/question', questionRoutes);
